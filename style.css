@@ -1,3 +1,15 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body{
+    height:100%;
+}
+
 h1{text-align:center;color:#CE9A3E;}
 
 h2{text-align:center;font-size:30px;color: #F8F8FF; text-decoration:underline}
@@ -25,8 +37,20 @@ li {text-align: center;}
 
 li h3{list-style: none;}
 
-.lol{list-style: none; text-align:inherit}
+
 
 ul{list-style: none;}
 
-main{text-align: center;}
+main{
+    text-align: center;
+    overflow: hidden;
+   min-height:calc(100% - 56px - 322px);
+}
+
+.h2m{text-decoration: none;}
+
+footer{background-color: black;}
+
+footer li {display: inline-block;margin-right:30px;margin-left: 30px; }
+
+.lol{list-style: none; text-align:center; display: inline-block}
