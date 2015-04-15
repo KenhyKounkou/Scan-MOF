@@ -49,8 +49,12 @@ main{
 
 .h2m{text-decoration: none;}
 
-footer{background-color: black;}
+footer{background-color: black;position: fixed; bottom:0px; width: 100%}
 
 footer li {display: inline-block;margin-right:30px;margin-left: 30px; }
 
 .lol{list-style: none; text-align:center; display: inline-block}
+
+.radiant{width: 150px;height: 150px;}
+.lastman{width: 150px;height: 150px;}
+.debaser{width: 150px;height: 150px;}
