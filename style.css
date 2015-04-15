@@ -45,8 +45,11 @@ ul{list-style: none;}
 
 li .lil{margin-top: 20px;}
 
-main{
-    text-align: center;
+.pop{margin-top: 10px;margin-bottom: 300px;}
+
+main{text-align: center;
+    
+
     overflow: hidden;
    min-height:calc(100% - 56px - 322px);
 }
