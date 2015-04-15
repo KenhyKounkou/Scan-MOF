@@ -67,3 +67,5 @@ footer li {display: inline-block;margin-right:30px;margin-left: 30px; }
 .debaser{width: 150px;height: 150px;}
 
 p{margin: 30px; text-align: center;}
+
+body{background-attachment: fixed;}
