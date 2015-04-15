@@ -41,6 +41,10 @@ li h3{list-style: none;}
 
 ul{list-style: none;}
 
+.lil{font-family: fantasy;margin-bottom: 350px;}
+
+li .lil{margin-top: 20px;}
+
 main{
     text-align: center;
     overflow: hidden;
@@ -58,3 +62,5 @@ footer li {display: inline-block;margin-right:30px;margin-left: 30px; }
 .radiant{width: 150px;height: 150px;}
 .lastman{width: 150px;height: 150px;}
 .debaser{width: 150px;height: 150px;}
+
+p{margin: 30px; text-align: center;}
